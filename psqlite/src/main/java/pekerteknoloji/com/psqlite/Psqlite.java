@@ -13,7 +13,7 @@ public class Psqlite {
 	}
 	
 	public void connect(){
-		dtb=context.openOrCreateDatabase("ERP12.db", Context.MODE_PRIVATE,null);
+		dtb=context.openOrCreateDatabase("PSQL.db", Context.MODE_PRIVATE,null);
 	}
 	
 	public boolean execSQL(String sql){
