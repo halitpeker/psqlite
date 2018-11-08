@@ -7,7 +7,7 @@ allprojects {
     }
 }
 ```
-Step 2. Add the dependenc
+Step 2. Add the dependencies
 ```java
 dependencies {
     implementation 'com.github.halitpeker:psqlite:1.0.2'
