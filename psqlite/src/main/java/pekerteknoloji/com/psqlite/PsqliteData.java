@@ -152,19 +152,4 @@ public final class PsqliteData {
         psqlite.disconnect();
         return donus;
     }
-
-    private static String kurAdiVer(long dovizKurSecimi) {
-        if (dovizKurSecimi == 1) {
-            return "ALIS";
-        } else if (dovizKurSecimi == 2) {
-            return "SATIS";
-        } else if (dovizKurSecimi == 3) {
-            return "EFEKTIF_ALIS";
-        } else if (dovizKurSecimi == 4) {
-            return "EFEKTIF_SATIS";
-        } else {
-            return "SATIS";
-        }
-    }
-
 }
