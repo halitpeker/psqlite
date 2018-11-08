@@ -10,6 +10,6 @@ allprojects {
 Step 2. Add the dependencies
 ```java
 dependencies {
-    implementation 'com.github.halitpeker:psqlite:1.0.2'
+    implementation 'com.github.halitpeker:psqlite:1.0.3'
 }
 ```
